@@ -150,13 +150,13 @@ nav > img{
     text-align: center;
     padding-bottom: 20px;
 }
-.habit-txt{
+.habit-txt, .run-text{
     margin: 0%;
     color: white;
     font-size: 40px;
     font-weight: 700;
 }
-.section-2{
+.section-2, .section-3{
     background-color: black;
     padding: 10px 10%;
 }
@@ -184,6 +184,30 @@ nav > img{
     align-items: center;
     flex-wrap: wrap;
 }
+.run-container{
+    padding: 20px;
+    background-color: rgb(59, 54, 54);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 20px;
+}
+.w-60{
+    width: 60%;
+}
+.run-img{
+    border-radius: 20px;
+    width: 100%;
+}
+#join-now{
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    background-color:rgba(255, 0, 0, 0.719) ;
+    border-radius: 25px;
+    padding: 15px 80px;
+    border: 0px;
+}
 @media (min-width:577px) and (max-width:992px) {
     nav{
         padding: 10px 3%;
@@ -195,12 +219,13 @@ nav > img{
     .w-50{
         width: 100%;
     }
-    .section-2{
-        background-color: black;
-        padding: 10px 0%;
+    .section-2, .section-3{
+        padding: 10px 3%;
     }
+    
 
 }
+
 @media (max-width:576px) {
     nav{
         padding: 10px 3%;
@@ -213,6 +238,11 @@ nav > img{
     .w-50{
         width: 100%;
     }
+    .w-60{
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
     .section-1{
         flex-direction: column;
         margin: auto;
@@ -220,5 +250,12 @@ nav > img{
     .two-button{
         gap: 0px;
         justify-content: space-between;
+    }
+    .section-2, .section-3{
+        padding: 10px 3%;
+    }
+    .run-container{
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
