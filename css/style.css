@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100..900&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0%;
+}
+nav{ 
+    background-image: linear-gradient(rgba(8, 8, 8, 0.795),rgba(20, 20, 20, 0.856));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+nav > img{
+    width: 30px;
+    display: none;
+}
+.nav-button > a{
+    color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+.nav-button{
+    border: 2px solid rgb(155, 146, 146);
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.fitness{
+    color: rgba(255, 0, 0, 0.719);
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+}
+
+.home-button{
+    color: white;
+    background-color:rgba(255, 0, 0, 0.719) ;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+.w-50{
+    width: 50%;
+}
+.get-boy-para{
+    font-size: 66px;
+    font-weight: 900;
+    color: white;
+    
+}
+.shape{
+    font-weight: 400;
+    font-family: "Dancing Script", cursive;
+}
+.join{
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    background-color:rgba(255, 0, 0, 0.719) ;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 0px;
+}
+.download{
+    color: white;
+    font-size: medium; 
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 0px;
+    border: 2px solid rgb(155, 146, 146);
+}
+.body-builder{
+    height: 580px;
+    background-image: url(/images/body-builder.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.two-button{
+    display: flex;
+    gap: 5%;
+    margin-bottom: 70px;
+}
+.description{
+    color: rgb(155, 146, 146);
+    margin-bottom: 30px;
+}
+.count{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.count-500{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+#red-circle{
+    background-color:rgba(255, 0, 0, 0.719) ;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+#video-txt{
+    color: rgb(131, 121, 121);
+    font-size: 15px;
+}
+.video-tutorial{
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    filter: brightness(1.5);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    padding:0px 10px;
+    justify-content: center;
+    position: relative;
+    top:400px;
+    left: 10px;
+}
+.video-workout{
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    filter: brightness(1.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    padding:10px;
+    position: relative;
+    top:70px;
+    left: 300px;
+}
+.section-1{
+    display: flex;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.856), rgb(0, 0, 0));
+    align-items: center;
+    padding: 10px 10%;
+    justify-content: space-between;
+}
+@media (min-width:577px) and (max-width:992px) {
+    nav{
+        padding: 10px 3%;
+    }
+    .section-1{
+        flex-direction: column;
+        
+    }
+    .w-50{
+        width: 100%;
+    }
+}
+@media (max-width:576px) {
+    nav{
+        padding: 10px 3%;
+    }
+    nav > img{
+        display: block;}
+    .nav-button{
+        display: none;
+    }
+    .w-50{
+        width: 100%;
+    }
+    .section-1{
+        flex-direction: column;
+        padding: 10px 3%;
+    }
+    .two-button{
+        gap: 0px;
+        justify-content: space-between;
+    }
+}
