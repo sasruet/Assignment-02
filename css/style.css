@@ -150,7 +150,7 @@ nav > img{
     text-align: center;
     padding-bottom: 20px;
 }
-.habit-txt, .run-text{
+.habit-txt, .run-text, .bmi-heading{
     margin: 0%;
     color: white;
     font-size: 40px;
@@ -205,8 +205,77 @@ nav > img{
     font-weight: 600;
     background-color:rgba(255, 0, 0, 0.719) ;
     border-radius: 25px;
-    padding: 15px 80px;
+    padding: 15px 20px;
+    width: 50%;
     border: 0px;
+}
+#calculate{
+    margin-top: 20px;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    background-color:rgba(255, 0, 0, 0.719) ;
+    border-radius: 25px;
+    padding: 15px 20px;
+    width: 30%;
+    border: 0px;
+}
+.bmi-cal{
+    padding: 10px 20%;
+}
+.cal-chart-txt{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.cal-container{
+    background-color:  rgb(59, 54, 54);
+    display: flex;
+    padding: 10px 10%;
+}
+th{
+    border: 1px solid black;
+    color: aliceblue;
+    padding: 5px;
+    height: 30px;
+    width: 150px;
+}
+
+td{ padding: 5px;
+    color: rgb(155, 146, 146);
+    border: 1px solid black;
+    height: 30px;
+    width: 150px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.section-4
+{
+    background-color: black;
+}
+input{
+    color: rgb(182, 172, 172);
+    background-color:  rgb(78, 73, 73);
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+.input-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+select{
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(182, 172, 172);
+    background-color:  rgb(78, 73, 73);
+}
+#select-activity{
+    grid-column: span 2;
 }
 @media (min-width:577px) and (max-width:992px) {
     nav{
@@ -221,6 +290,17 @@ nav > img{
     }
     .section-2, .section-3{
         padding: 10px 3%;
+    }
+    .cal-container{
+        padding: 10px 3%;
+        flex-wrap: wrap;
+    }
+    #join-now{
+        width: 90%;
+    }
+    .input-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
     }
     
 
@@ -241,7 +321,6 @@ nav > img{
     .w-60{
         width: 100%;
         margin-bottom: 10px;
-        text-align: center;
     }
     .section-1{
         flex-direction: column;
@@ -256,6 +335,12 @@ nav > img{
     }
     .run-container{
         flex-wrap: wrap;
-        justify-content: center;
+    }
+    #join-now{
+        width: 100%;
+    }
+    .cal-container{
+        padding: 10px 3%;
+        flex-wrap: wrap;
     }
 }
