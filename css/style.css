@@ -77,7 +77,7 @@ nav > img{
 }
 .body-builder{
     height: 580px;
-    background-image: url(/images/body-builder.png);
+    background-image: url(../images/body-builder.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -210,7 +210,7 @@ nav > img{
     border: 0px;
 }
 #calculate{
-    margin-top: 20px;
+    margin: 20px 0px;
     color: white;
     font-size: medium;
     font-weight: 600;
@@ -232,6 +232,7 @@ nav > img{
     background-color:  rgb(59, 54, 54);
     display: flex;
     padding: 10px 10%;
+    gap: 10px;
 }
 th{
     border: 1px solid black;
@@ -251,7 +252,7 @@ table{
     border-collapse: collapse;
     border: 1px solid black;
 }
-.section-4
+.section-4, .section-5
 {
     background-color: black;
 }
@@ -277,6 +278,93 @@ select{
 #select-activity{
     grid-column: span 2;
 }
+.single-profile{
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+    background-image: url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.single-profile2{
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+    background-image: url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.single-profile3{
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+    background-image: url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.single-profile4{
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+    background-image: url(../images/trainer4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.single-profile5{
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+    background-image: url(../images/trainer5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.single-profile6{
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+    background-image: url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.profile-text{
+    position: relative;
+    top:80%;
+    left: 10%;
+}
+.name{
+    color: white;
+    font-size: medium;
+}
+.profile-container{
+    margin-bottom: 20px;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(59, 54, 54);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 10px;
+}
+.section-5{
+    padding: 10px 10%;
+}
+footer{
+    background-color:rgb(59, 54, 54) ;
+    padding: 10px 10%;
+}
+.fitness-footer{
+    padding-top: 30px;
+    width: 50%;
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.footer-container{
+    display: flex;
+    gap: 20px;
+}
 @media (min-width:577px) and (max-width:992px) {
     nav{
         padding: 10px 3%;
@@ -288,7 +376,7 @@ select{
     .w-50{
         width: 100%;
     }
-    .section-2, .section-3{
+    .section-2, .section-3,.section-5{
         padding: 10px 3%;
     }
     .cal-container{
@@ -301,6 +389,9 @@ select{
     .input-container{
         grid-template-columns: repeat(1,1fr);
         gap: 10px;
+    }
+    .bmi-cal{
+        padding: 10px 3%;
     }
     
 
@@ -330,7 +421,7 @@ select{
         gap: 0px;
         justify-content: space-between;
     }
-    .section-2, .section-3{
+    .section-2, .section-3,.section-5{
         padding: 10px 3%;
     }
     .run-container{
@@ -342,5 +433,24 @@ select{
     .cal-container{
         padding: 10px 3%;
         flex-wrap: wrap;
+    }
+    .bmi-cal{
+        padding: 10px 3%;
+    }
+    .profile-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .fitness-footer{
+        width: 100%;
+    }
+    .footer-link{
+        flex-direction: column;
+        width: 100%;
+    }
+    footer{
+        padding: 10px 3%;
     }
 }
