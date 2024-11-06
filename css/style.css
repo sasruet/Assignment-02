@@ -1,34 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100..900&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-body{
+
+body {
     font-family: "Inter", sans-serif;
     margin: 0%;
 }
-nav{ 
-    background-image: linear-gradient(rgba(8, 8, 8, 0.795),rgba(20, 20, 20, 0.856));
+
+nav {
+    background-image: linear-gradient(rgba(8, 8, 8, 0.795), rgba(20, 20, 20, 0.856));
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
 }
-nav > img{
+
+nav>img {
     width: 30px;
     display: none;
 }
-.nav-button > a{
+
+.nav-button>a {
     color: white;
     border-radius: 25px;
     padding: 10px 25px;
     text-decoration: none;
 }
-.nav-button{
-    border: 2px solid rgb(155, 146, 146);
+
+.nav-button {
+    border: 1px solid rgb(155, 146, 146);
     display: flex;
     align-items: center;
     border-radius: 25px;
     background-color: transparent;
 }
-.fitness{
+
+.fitness {
     color: rgba(255, 0, 0, 0.719);
     font-size: 30px;
     font-weight: 900;
@@ -36,38 +42,43 @@ nav > img{
     font-style: italic;
 }
 
-.home-button{
+.home-button {
     color: white;
-    background-color:rgba(255, 0, 0, 0.719) ;
+    background-color: rgba(255, 0, 0, 0.719);
     border-radius: 25px;
     padding: 10px;
     text-decoration: none;
 }
-.w-50{
+
+.w-50 {
     width: 50%;
 }
-.get-boy-para{
+
+.get-boy-para {
     font-size: 66px;
     font-weight: 900;
     color: white;
-    
+
 }
-.shape{
+
+.shape {
     font-weight: 400;
     font-family: "Dancing Script", cursive;
 }
-.join{
+
+.join {
     color: white;
     font-size: medium;
     font-weight: 600;
-    background-color:rgba(255, 0, 0, 0.719) ;
+    background-color: rgba(255, 0, 0, 0.719);
     border-radius: 25px;
     padding: 10px 20px;
     border: 0px;
 }
-.download{
+
+.download {
     color: white;
-    font-size: medium; 
+    font-size: medium;
     font-weight: 600;
     background-color: transparent;
     border-radius: 25px;
@@ -75,42 +86,50 @@ nav > img{
     border: 0px;
     border: 2px solid rgb(155, 146, 146);
 }
-.body-builder{
+
+.body-builder {
     height: 580px;
     background-image: url(../images/body-builder.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-.two-button{
+
+.two-button {
     display: flex;
     gap: 5%;
     margin-bottom: 70px;
 }
-.description{
+
+.description {
     color: rgb(155, 146, 146);
     margin-bottom: 30px;
 }
-.count{
+
+.count {
     color: white;
     font-size: 20px;
     font-weight: 600;
 }
-.count-500{
+
+.count-500 {
     color: white;
     font-size: 30px;
     font-weight: 700;
 }
-#red-circle{
-    background-color:rgba(255, 0, 0, 0.719) ;
+
+#red-circle {
+    background-color: rgba(255, 0, 0, 0.719);
     width: 30px;
     height: 30px;
     border-radius: 100%;
 }
-#video-txt{
+
+#video-txt {
     color: rgb(131, 121, 121);
     font-size: 15px;
 }
-.video-tutorial{
+
+.video-tutorial {
     background-color: transparent;
     backdrop-filter: blur(8px);
     filter: brightness(1.5);
@@ -119,13 +138,14 @@ nav > img{
     align-items: center;
     gap: 10px;
     width: 150px;
-    padding:0px 10px;
+    padding: 0px 5px;
     justify-content: center;
     position: relative;
-    top:70%;
-    left:2%;
+    top: 70%;
+    left: 2%;
 }
-.video-workout{
+
+.video-workout {
     background-color: transparent;
     backdrop-filter: blur(8px);
     filter: brightness(1.5);
@@ -134,57 +154,72 @@ nav > img{
     flex-direction: column;
     justify-content: center;
     width: 150px;
-    padding:10px;
+    padding: 5px;
     position: relative;
-    top:10%;
-    left: 60%;
+    top: 10%;
+    left: 50%;
 }
-.section-1{
+
+.section-1 {
     display: flex;
     background-image: linear-gradient(rgba(20, 20, 20, 0.856), rgb(0, 0, 0));
     align-items: center;
     padding: 10px 10%;
     justify-content: space-between;
 }
-.habit-txt-container{
+
+.habit-txt-container,
+.challange-txt-container {
     text-align: center;
     padding-bottom: 20px;
 }
-.habit-txt, .run-text, .bmi-heading{
+
+.habit-txt,
+.run-text,
+.bmi-heading,
+.challange-txt {
     margin: 0%;
     color: white;
     font-size: 40px;
     font-weight: 700;
 }
-.section-2, .section-3{
+
+.section-2,
+.section-3 {
     background-color: black;
     padding: 10px 10%;
 }
-.single-card{
+
+.single-card {
     padding: 20px;
     width: 200px;
     text-align: center;
     border-radius: 10px;
 }
-.single-card > img{
-    border-radius: 50%; 
+
+.single-card>img {
+    border-radius: 50%;
     width: 100%;
     border: 2px solid rgb(156, 153, 149);
 }
-.card-heading{
+
+.card-heading {
     color: white;
     font-size: medium;
 }
-.card-text{
+
+.card-text {
     padding-top: 20px;
 }
-.card-container{
+
+.card-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
-.run-container{
+
+.run-container {
     padding: 20px;
     background-color: rgb(59, 54, 54);
     display: flex;
@@ -192,49 +227,57 @@ nav > img{
     align-items: center;
     border-radius: 20px;
 }
-.w-60{
+
+.w-60 {
     width: 60%;
 }
-.run-img{
+
+.run-img {
     border-radius: 20px;
     width: 100%;
 }
-#join-now{
+
+#join-now {
     color: white;
     font-size: medium;
     font-weight: 600;
-    background-color:rgba(255, 0, 0, 0.719) ;
+    background-color: rgba(255, 0, 0, 0.719);
     border-radius: 25px;
     padding: 15px 20px;
     width: 50%;
     border: 0px;
 }
-#calculate{
+
+#calculate {
     margin: 20px 0px;
     color: white;
     font-size: medium;
     font-weight: 600;
-    background-color:rgba(255, 0, 0, 0.719) ;
+    background-color: rgba(255, 0, 0, 0.719);
     border-radius: 25px;
     padding: 15px 20px;
     width: 30%;
     border: 0px;
 }
-.bmi-cal{
+
+.bmi-cal {
     padding: 10px 20%;
 }
-.cal-chart-txt{
+
+.cal-chart-txt {
     color: white;
     font-size: 25px;
     font-weight: 500;
 }
-.cal-container{
-    background-color:  rgb(59, 54, 54);
+
+.cal-container {
+    background-color: rgb(59, 54, 54);
     display: flex;
     padding: 10px 10%;
     gap: 10px;
 }
-th{
+
+th {
     border: 1px solid black;
     color: aliceblue;
     padding: 5px;
@@ -242,43 +285,52 @@ th{
     width: 150px;
 }
 
-td{ padding: 5px;
+td {
+    padding: 5px;
     color: rgb(155, 146, 146);
     border: 1px solid black;
     height: 30px;
     width: 150px;
 }
-table{
+
+table {
     border-collapse: collapse;
     border: 1px solid black;
 }
-.section-4, .section-5
-{
+
+.section-4,
+.section-5,
+.challange {
     background-color: black;
 }
-input{
+
+input {
     color: rgb(182, 172, 172);
-    background-color:  rgb(78, 73, 73);
+    background-color: rgb(78, 73, 73);
     height: 30px;
     width: 100%;
     border-radius: 5px;
     border: none;
 }
-.input-container{
+
+.input-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-select{
+
+select {
     height: 30px;
     border-radius: 5px;
     color: rgb(182, 172, 172);
-    background-color:  rgb(78, 73, 73);
+    background-color: rgb(78, 73, 73);
 }
-#select-activity{
+
+#select-activity {
     grid-column: span 2;
 }
-.single-profile{
+
+.single-profile {
     border-radius: 10px;
     height: 250px;
     width: 100%;
@@ -286,7 +338,8 @@ select{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.single-profile2{
+
+.single-profile2 {
     border-radius: 10px;
     height: 250px;
     width: 100%;
@@ -294,7 +347,8 @@ select{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.single-profile3{
+
+.single-profile3 {
     border-radius: 10px;
     height: 250px;
     width: 100%;
@@ -302,7 +356,8 @@ select{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.single-profile4{
+
+.single-profile4 {
     border-radius: 10px;
     height: 250px;
     width: 100%;
@@ -310,7 +365,8 @@ select{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.single-profile5{
+
+.single-profile5 {
     border-radius: 10px;
     height: 250px;
     width: 100%;
@@ -318,7 +374,8 @@ select{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.single-profile6{
+
+.single-profile6 {
     border-radius: 10px;
     height: 250px;
     width: 100%;
@@ -327,130 +384,189 @@ select{
     background-size: 100% 100%;
 }
 
-.profile-text{
+.profile-text {
     position: relative;
-    top:80%;
+    top: 80%;
     left: 10%;
 }
-.name{
+
+.name {
     color: white;
     font-size: medium;
 }
-.profile-container{
+
+.profile-container {
     margin-bottom: 20px;
     gap: 20px;
     padding: 20px;
     background-color: rgb(59, 54, 54);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     border-radius: 10px;
 }
-.section-5{
+
+.section-5 {
     padding: 10px 10%;
 }
-footer{
-    background-color:rgb(59, 54, 54) ;
+
+.before,
+.after {
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(59, 54, 54);
     padding: 10px 10%;
 }
-.fitness-footer{
+
+.fitness-footer {
     padding-top: 30px;
     width: 50%;
 }
-.footer-link{
+
+.footer-link {
     display: flex;
     flex-direction: column;
     width: 25%;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     gap: 20px;
 }
+
+.feedback-container {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(59, 54, 54);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.challange {
+    padding: 10px 10%;
+}
+
 @media (min-width:577px) and (max-width:992px) {
-    nav{
+    nav {
         padding: 10px 3%;
     }
-    .section-1{
+
+    .section-1 {
         flex-direction: column;
-        
+
     }
-    .w-50{
+
+    .w-50 {
         width: 100%;
     }
-    .section-2, .section-3,.section-5{
+
+    .section-2,
+    .section-3,
+    .section-5 {
         padding: 10px 3%;
     }
-    .cal-container{
+
+    .cal-container {
         padding: 10px 3%;
         flex-wrap: wrap;
     }
-    #join-now{
+
+    #join-now {
         width: 90%;
     }
-    .input-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .input-container {
+        grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
-    .bmi-cal{
+
+    .bmi-cal {
         padding: 10px 3%;
     }
-    
+
 
 }
 
 @media (max-width:576px) {
-    nav{
+    nav {
         padding: 10px 3%;
     }
-    nav > img{
-        display: block;}
-    .nav-button{
+
+    nav>img {
+        display: block;
+    }
+
+    .nav-button {
         display: none;
     }
-    .w-50{
+
+    .w-50 {
         width: 100%;
     }
-    .w-60{
+
+    .w-60 {
         width: 100%;
         margin-bottom: 10px;
     }
-    .section-1{
+
+    .section-1 {
         flex-direction: column;
         margin: auto;
     }
-    .two-button{
+
+    .two-button {
         gap: 0px;
         justify-content: space-between;
     }
-    .section-2, .section-3,.section-5{
+
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-5 {
         padding: 10px 3%;
     }
-    .run-container{
+
+    .run-container,
+    .feedback-container {
         flex-wrap: wrap;
     }
-    #join-now{
+
+    #join-now {
         width: 100%;
     }
-    .cal-container{
+
+    .cal-container {
         padding: 10px 3%;
         flex-wrap: wrap;
     }
-    .bmi-cal{
+
+    .bmi-cal {
         padding: 10px 3%;
     }
-    .profile-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .profile-container {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .footer-container{
+
+    .footer-container {
         flex-direction: column;
     }
-    .fitness-footer{
+
+    .fitness-footer {
         width: 100%;
     }
-    .footer-link{
+
+    .footer-link {
         flex-direction: column;
         width: 100%;
     }
-    footer{
+
+    footer,
+    .challange {
         padding: 10px 3%;
     }
 }
